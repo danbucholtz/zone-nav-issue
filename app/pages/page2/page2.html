@@ -1,0 +1,14 @@
+
+<ion-navbar *navbar>
+  <ion-title>
+    Page 2
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="page2">
+  <div>Today is: {{dateString}}</div>
+  <div>Results below:</div>
+  <div *ngFor="#result of list">
+    Name is: {{result.name}}
+  </div>
+</ion-content>
